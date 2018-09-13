@@ -6,6 +6,6 @@ checkout scm
 }
 stage ('build')
 {
-sh 'mvn clean install'
+sh 'mvn install'
 }
 }
